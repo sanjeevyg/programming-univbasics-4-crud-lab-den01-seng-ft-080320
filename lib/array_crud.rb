@@ -28,17 +28,20 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  element = array[index_number]
+  element
 end
 
 def retrieve_first_element_from_array(array)
-  
+  first_element = array[0]
+  first_element
 end
 
 def retrieve_last_element_from_array(array)
-  
+  last_element = array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
-
+array[index_number] = element 
+array 
 end
